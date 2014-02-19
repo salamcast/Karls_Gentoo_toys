@@ -1,0 +1,128 @@
+Fri Jan 23 21:05:19 EST 2009
+
+*****************
+* system uname -a   
+*****************
+
+Linux alphadog 2.6.24-gentoo-r6 #1 SMP Sun May 18 13:53:20 UTC 2008 alpha EV56 EB164 GNU/Linux
+
+*********
+* CPUINFO 
+*********
+
+cpu			: Alpha
+cpu model		: EV56
+cpu variation		: 7
+cpu revision		: 0
+cpu serial number	: 
+system type		: EB164
+system variation	: LX164
+system revision		: 0
+system serial number	: 
+cycle frequency [Hz]	: 533176640 est.
+timer frequency [Hz]	: 1024.00
+page size [bytes]	: 8192
+phys. address bits	: 40
+max. addr. space #	: 127
+BogoMIPS		: 1059.80
+kernel unaligned acc	: 0 (pc=0,va=0)
+user unaligned acc	: 0 (pc=0,va=0)
+platform string		: Digital AlphaPC 164LX 533 MHz
+cpus detected		: 1
+cpus active		: 1
+cpu active mask		: 0000000000000001
+L1 Icache		: 8K, 1-way, 32b line
+L1 Dcache		: 8K, 1-way, 32b line
+L2 cache		: 96K, 3-way, 64b line
+L3 cache		: 2048K, 1-way, 64b line
+
+************************
+* Current loaded modules 
+************************
+
+Module                  Size  Used by
+vfat                   20656  1 
+fat                    76160  1 vfat
+tg3                   155964  0 
+e1000                 179380  0 
+nfs                   204248  0 
+nfs_acl                 7168  1 nfs
+lockd                  99840  1 nfs
+sunrpc                264776  5 nfs,nfs_acl,lockd
+jfs                   236384  0 
+reiserfs              318076  0 
+ext3                  174696  1 
+jbd                    73432  1 ext3
+raid10                 33904  0 
+raid456               144040  0 
+async_tx                5400  1 raid456
+async_memcpy            4568  1 raid456
+async_xor               5816  1 raid456
+xor                    11704  2 raid456,async_xor
+raid1                  34272  0 
+raid0                  12016  0 
+md_mod                107904  4 raid10,raid456,raid1,raid0
+dm_snapshot            26608  0 
+dm_mirror              33540  0 
+dm_mod                 86472  2 dm_snapshot,dm_mirror
+sg                     45264  0 
+scsi_wait_scan          3720  0 
+
+**********************
+* Current PCI hardware
+**********************
+
+00:05.0 VGA compatible controller: S3 Inc. 86c325 [ViRGE] (rev 06)
+00:06.0 USB Controller: OPTi Inc. 82C861 (rev 10)
+00:07.0 Ethernet controller: Digital Equipment Corporation DECchip 21140 [FasterNet] (rev 20)
+00:08.0 ISA bridge: Intel Corporation 82378ZB/IB, 82379AB (SIO, SIO.A) PCI to ISA Bridge (rev 43)
+00:09.0 SCSI storage controller: Adaptec AHA-2940U/UW/D / AIC-7881U (rev 01)
+00:0b.0 IDE interface: Silicon Image, Inc. PCI0646 (rev 01)
+
+******************
+* Attached Storage
+******************
+
+/dev/hdc1: UUID="a9c7c106-cb66-4d56-a325-a49057be553a" TYPE="ext3" 
+/dev/sda1: TYPE="swap" UUID="57b5f635-95b5-4c56-912c-062333e0bad5" 
+/dev/sda2: UUID="a7f2dc36-bd85-4dc6-9da1-df5f05379e74" TYPE="ext2" 
+/dev/sdb1: UUID="4f255394-033a-4607-9f59-f93ea166ea30" TYPE="ext2" 
+/dev/sdc1: LABEL="KAREEM" UUID="E47C-17FA" TYPE="vfat" 
+
+***********************
+* Portage Configuration
+***********************
+
+Portage 2.1.4.5 (default/linux/alpha/2008.0, gcc-4.1.2, glibc-2.6.1-r0, 2.6.24-gentoo-r6 alpha)
+=================================================================
+System uname: 2.6.24-gentoo-r6 alpha EV56
+Timestamp of tree: Tue, 16 Dec 2008 07:32:01 +0000
+app-shells/bash:     3.2_p17-r1
+dev-lang/python:     2.4.4-r13
+dev-python/pycrypto: 2.0.1-r6
+sys-apps/baselayout: 1.12.11.1
+sys-apps/sandbox:    1.2.18.1-r2
+sys-devel/autoconf:  2.61-r1
+sys-devel/automake:  1.10.1
+sys-devel/binutils:  2.18-r1
+sys-devel/gcc-config: 1.4.0-r4
+sys-devel/libtool:   1.5.24
+virtual/os-headers:  2.6.23-r3
+ACCEPT_KEYWORDS="alpha"
+CBUILD="alpha-unknown-linux-gnu"
+CFLAGS="-mieee -pipe -O2 -mcpu=ev56"
+CHOST="alpha-unknown-linux-gnu"
+CONFIG_PROTECT="/etc"
+CONFIG_PROTECT_MASK="/etc/env.d /etc/gconf /etc/terminfo /etc/udev/rules.d"
+CXXFLAGS="-mieee -pipe -O2 -mcpu=ev56"
+DISTDIR="/usr/portage/distfiles"
+FEATURES="distlocks metadata-transfer sandbox sfperms strict unmerge-orphans userfetch"
+GENTOO_MIRRORS="http://distfiles.gentoo.org http://distro.ibiblio.org/pub/linux/distributions/gentoo"
+LDFLAGS="-Wl,-O1"
+PKGDIR="/usr/portage/packages"
+PORTAGE_RSYNC_OPTS="--recursive --links --safe-links --perms --times --compress --force --whole-file --delete --stats --timeout=180 --exclude=/distfiles --exclude=/local --exclude=/packages"
+PORTAGE_TMPDIR="/var/tmp"
+PORTDIR="/usr/portage"
+SYNC="rsync://rsync.gentoo.org/gentoo-portage"
+USE="X acl alpha berkdb bzip2 cli cracklib crypt dri fortran gdbm gpm gtk iconv isdnlog midi mudflap ncurses nls nptl nptlonly openmp pam pcre pppd python readline reflection session spl ssl sysfs tcpd unicode xorg zlib" ALSA_CARDS="ali5451 als4000 bt87x ca0106 cmipci emu10k1 ens1370 ens1371 es1938 es1968 fm801 hda-intel intel8x0 maestro3 trident usb-audio via82xx ymfpci" ALSA_PCM_PLUGINS="adpcm alaw asym copy dmix dshare dsnoop empty extplug file hooks iec958 ioplug ladspa lfloat linear meter mmap_emul mulaw multi null plug rate route share shm softvol" APACHE2_MODULES="actions alias auth_basic authn_alias authn_anon authn_dbm authn_default authn_file authz_dbm authz_default authz_groupfile authz_host authz_owner authz_user autoindex cache dav dav_fs dav_lock deflate dir disk_cache env expires ext_filter file_cache filter headers include info log_config logio mem_cache mime mime_magic negotiation rewrite setenvif speling status unique_id userdir usertrack vhost_alias" ELIBC="glibc" INPUT_DEVICES="keyboard mouse evdev" KERNEL="linux" LCD_DEVICES="bayrad cfontz cfontz633 glk hd44780 lb216 lcdm001 mtxorb ncurses text" USERLAND="GNU" VIDEO_CARDS="fbdev glint mach64 mga nv r128 radeon savage tdfx vga voodoo"
+Unset:  CPPFLAGS, CTARGET, EMERGE_DEFAULT_OPTS, FFLAGS, INSTALL_MASK, LANG, LC_ALL, LINGUAS, MAKEOPTS, PORTAGE_COMPRESS, PORTAGE_COMPRESS_FLAGS, PORTAGE_RSYNC_EXTRA_OPTS, PORTDIR_OVERLAY

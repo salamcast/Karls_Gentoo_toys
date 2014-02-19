@@ -1,0 +1,27 @@
+Module                  Size  Used by
+vfat                   20656  1 
+fat                    76160  1 vfat
+tg3                   155964  0 
+e1000                 179380  0 
+nfs                   204248  0 
+nfs_acl                 7168  1 nfs
+lockd                  99840  1 nfs
+sunrpc                264776  5 nfs,nfs_acl,lockd
+jfs                   236384  0 
+reiserfs              318076  0 
+ext3                  174696  0 
+jbd                    73432  1 ext3
+raid10                 33904  0 
+raid456               144040  0 
+async_tx                5400  1 raid456
+async_memcpy            4568  1 raid456
+async_xor               5816  1 raid456
+xor                    11704  2 raid456,async_xor
+raid1                  34272  0 
+raid0                  12016  0 
+md_mod                107904  4 raid10,raid456,raid1,raid0
+dm_snapshot            26608  0 
+dm_mirror              33540  0 
+dm_mod                 86472  2 dm_snapshot,dm_mirror
+sg                     45264  0 
+scsi_wait_scan          3720  0 

@@ -1,0 +1,6 @@
+00:05.0 VGA compatible controller: S3 Inc. 86c325 [ViRGE] (rev 06)
+00:06.0 USB Controller: OPTi Inc. 82C861 (rev 10)
+00:07.0 Ethernet controller: Digital Equipment Corporation DECchip 21140 [FasterNet] (rev 20)
+00:08.0 ISA bridge: Intel Corporation 82378ZB/IB, 82379AB (SIO, SIO.A) PCI to ISA Bridge (rev 43)
+00:09.0 SCSI storage controller: Adaptec AHA-2940U/UW/D / AIC-7881U (rev 01)
+00:0b.0 IDE interface: Silicon Image, Inc. PCI0646 (rev 01)
