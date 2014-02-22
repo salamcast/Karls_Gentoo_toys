@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema>
+ <table name='marks'>
+  <field name='channel' type='int'/>
+  <field name='ap' type='text'/>
+  <field name='mac_address' type='text'/>
+  <field name='notes' type='text'/>
+ </table>
+ <rows>
+  <table name='marks'>
+   <row >
+    <field name='channel'>6</field>
+    <field name='ap' >YSCTECH</field>
+    <field name='mac_address' >00:13:10:4c0b:14</field>
+    <field name='notes' />
+   </row>
+  </table>
+ </rows>
+</schema>
